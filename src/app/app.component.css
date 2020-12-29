@@ -1,0 +1,39 @@
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+  background-color: #586875;
+}
+
+.nav {
+  background-color: #586875;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 24px;
+}
+
+.offset-s10 {
+  background-color: #a5c8ca;
+  margin: 10px;
+}
+
+.btn-floating {
+  margin: 5px;
+  background-color: #a5c8ca;
+}
+
+.done {
+  color: silver;
+  text-decoration: line-through;
+}
+
+input[type="date"].disabled::-webkit-inner-spin-button {
+  display: none;
+}
+
+.content {
+  overflow: auto;
+  height: 500px;
+  max-height: 500px;
+}
