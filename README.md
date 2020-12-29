@@ -1,6 +1,8 @@
 # ToDoList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+Technology stack:
+HTML, CSS, TypeScript, Angular 10.0.2, Bootstrap
 
 ## Development server
 
