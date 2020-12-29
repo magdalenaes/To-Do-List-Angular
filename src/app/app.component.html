@@ -11,7 +11,6 @@
         <ng-template #editOn>
             <button class="btn col s2 offset-s10" (click)="switchEditMode()">Zakończ</button>
         </ng-template>
-
     </div>
 
     <div class="row" *ngIf="editMode">
@@ -34,15 +33,14 @@
                 </div>
             </li>
             <li class="collection-item row" *ngSwitchCase="true">
-                <span class="col done">{{ task.name}}</span>
+                <span class="col done">{{ task.name }}</span>
             </li>
         </ng-container>
-
     </ul>
+
     <ng-template #noTasks>
         <h1>Dzisiaj brak zadań :-)</h1>
     </ng-template>
-
 
     <button class="btn red" (click)="clearTasks()" [disabled]="tasks.length === 0">Wyczyść</button>
 
